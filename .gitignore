@@ -1,0 +1,6 @@
+# Códigos de prueba
+prueba.py
+
+# Caché de Python
+__pycache__/
+*.pyc
