@@ -62,7 +62,7 @@ def analizar_texto(texto):
     #Variables
     cantidad_lineas = contar_lineas(texto)
     cantidad_palabras = contar_palabras(texto)
-    promedio = cantidad_palabras / cantidad_lineas
+    promedio = round(cantidad_palabras / cantidad_lineas, 2)
     lista = separar_lineas(texto, cantidad_lineas)
     
     #Lo que va a devolver la función
