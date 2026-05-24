@@ -1,6 +1,19 @@
 #Introducir por teclado una lista de palabras separadas por coma.
 #Reemplazar todas las apariciones de cada palabra por asteriscos.
 #Mostrar el resultado
+def leer_palabras(mensaje):
+    """Lee un string por teclado y lo devuelve como una lista de cada palabra.
+    Las palabras deben estar separadas por coma.
+    Parámetros
+        mensaje: texto que muestra en consola con indicaciones
+    Retorno
+        procesado: lista con las palabras
+    """
+    
+    palabras = input(mensaje)
+    limpio = [palabra.strip() for palabra in palabras.split(',')]
+    return limpio
+    
 def procesar_texto(review):
     """Procesa un string recibido como parámetro y censura las palabras leídas por teclado
 
@@ -10,20 +23,9 @@ def procesar_texto(review):
     Retorno
         procesado: string con las palabras censuradas
     """
-    def leer_palabras():
-        """Lee un string por teclado y lo devuelve como una lista de cada palabra
-
-        Retorno
-            procesado: lista con las palabras
-        """
-        
-        palabras = input('Ingrese las palabras consideradas spoiler (separadas por coma): ')
-        palabras = palabras.split(',')
-        limpio = [palabra.strip() for palabra in palabras]
-        return limpio
     
     #Creo dos listas con el texto a censurar y las palabras a censurar
-    spoilers = leer_palabras()
+    spoilers = leer_palabras('Ingrese las palabras consideradas spoiler (separadas por coma): ')
     review = review.split()
     
     #Recorro spoilers y busco si coincide alguno en review
