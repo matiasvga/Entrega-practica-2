@@ -10,23 +10,25 @@
 
 ## Paso 2
 
->- Crear un entorno virtual<br>
-> python -m venv nombre_del_entorno
+- En la terminal, situarse sobre el directorio *Entrega-practica-2*
+- Crear un entorno virtual
+> python -m venv venv
 
->- Activar el entorno virtual<br>
+- Activar el entorno virtual<br>
+>**Windows**
+>    
+> venv/Scripts/activate<br>
+> si no funciona intentar con el siguiente:<br>
+> venv/Scripts/Activate.ps1
 >
->    **Windows**
-> entrega-practica-2\nombre_del_entorno\Scripts\Activate.ps1<br>
->si no funciona intentar con el siguiente<br>
-> entrega-practica-2\nombre_del_entorno\Scripts\activate
+> **Linux / Mac**
 >
->    **Linux / Mac**
-> entrega-practica-2/nombre_del_entorno/bin/activate
+> venv/bin/activate
 
 ## Paso 3
 
 - Instalar las dependencias
-> pip install -r requeriments.txt
+> pip install -r requirements.txt
 
 ## Paso 4
 
@@ -35,4 +37,4 @@
 
 - Entrar a la carpeta notebooks
 
-- Doble click sobre el que quieras ejecutar
+- Doble click sobre el archivo que quieras ejecutar
