@@ -2,35 +2,36 @@
 
 # Cómo ejecutar el programa
  
-## Primero 
+## Paso 1
 
 - Instalar Python 3.13
 - Clonar el repositorio
-    git clone https://github.com/matiasvga/Entrega-practica-2.git
+> git clone https://github.com/matiasvga/Entrega-practica-2.git
 
-## Segundo
+## Paso 2
 
-- Crear un entorno virtual
-    python -m venv nombre_del_entorno
+- Crear un entorno virtual<br>
+> python -m venv nombre_del_entorno
 
-- Activar el entorno virtual
+- Activar el entorno virtual<br>
+
     **Windows**
-    entrega-practica-2\nombre_del_entorno\Scripts\Activate.ps1
-    >si no funciona intentar con el siguiente
-    entrega-practica-2\nombre_del_entorno\Scripts\activate
+> entrega-practica-2\nombre_del_entorno\Scripts\Activate.ps1
+si no funciona intentar con el siguiente<br>
+> entrega-practica-2\nombre_del_entorno\Scripts\activate
 
     **Linux / Mac**
-    entrega-practica-2/nombre_del_entorno/bin/activate
+> entrega-practica-2/nombre_del_entorno/bin/activate
 
-## Tercero
+## Paso 3
 
 - Instalar las dependencias
-    pip install -r requeriments.txt
+> pip install -r requeriments.txt
 
-## Cuarto
+## Paso 4
 
 - Ejecutar el notebook
-    jupyter notebook
+> jupyter notebook
 
 - Entrar a la carpeta notebooks
 
