@@ -10,17 +10,17 @@
 
 ## Paso 2
 
-- Crear un entorno virtual<br>
+>- Crear un entorno virtual<br>
 > python -m venv nombre_del_entorno
 
-- Activar el entorno virtual<br>
-
-    **Windows**
-> entrega-practica-2\nombre_del_entorno\Scripts\Activate.ps1
-si no funciona intentar con el siguiente<br>
+>- Activar el entorno virtual<br>
+>
+>    **Windows**
+> entrega-practica-2\nombre_del_entorno\Scripts\Activate.ps1<br>
+>si no funciona intentar con el siguiente<br>
 > entrega-practica-2\nombre_del_entorno\Scripts\activate
-
-    **Linux / Mac**
+>
+>    **Linux / Mac**
 > entrega-practica-2/nombre_del_entorno/bin/activate
 
 ## Paso 3
